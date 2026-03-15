@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>Om Gangajaliya – Branding Fonts</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Manrope:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=DM+Sans:wght@400;500;700&family=Space+Grotesk:wght@400;500;600;700&family=Outfit:wght@400;500;600;700&family=Syne:wght@400;500;600;700&family=Syne+Mono&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+:root {
+  --bg: #020617;
+  --card: #0b1220;
+  --accent: #22d3ee;
+  --text: #e5e7eb;
+  --muted: #9ca3af;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: radial-gradient(circle at top, #020617, #000);
+  color: var(--text);
+  font-family: Inter, sans-serif;
+  min-height: 100vh;
+  padding: 80px 6%;
+}
+
+h1 {
+  font-size: clamp(2.2rem, 4vw, 3.5rem);
+  margin-bottom: 8px;
+}
+
+p {
+  color: var(--muted);
+  font-size: 0.85rem;
+  margin-bottom: 40px;
+}
+
+/* Grid */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 28px;
+}
+
+/* Card */
+.card {
+  background: linear-gradient(145deg, #0b1220, #020617);
+  border-radius: 22px;
+  padding: 36px;
+  border: 1px solid rgba(255,255,255,0.05);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 0 60px rgba(34, 211, 238, 0.18);
+}
+
+.name {
+  font-size: 2.05rem;
+  letter-spacing: 0.6px;
+}
+
+.mono {
+  letter-spacing: 1.4px;
+}
+
+.label {
+  margin-top: 12px;
+  font-size: 0.75rem;
+  color: var(--muted);
+}
+
+/* Font Assignments */
+.inter { font-family: 'Inter', sans-serif; }
+.manrope { font-family: 'Manrope', sans-serif; }
+.jakarta { font-family: 'Plus Jakarta Sans', sans-serif; }
+.dm { font-family: 'DM Sans', sans-serif; }
+.space { font-family: 'Space Grotesk', sans-serif; }
+.outfit { font-family: 'Outfit', sans-serif; }
+.syne { font-family: 'Syne', sans-serif; }
+.syne-mono { font-family: 'Syne Mono', monospace; }
+.playfair { font-family: 'Playfair Display', serif; }
+
+/* Accent underline */
+.accent {
+  display: inline-block;
+  margin-top: 14px;
+  width: 42px;
+  height: 2px;
+  background: var(--accent);
+  border-radius: 2px;
+}
+</style>
+</head>
+
+<body>
+
+<h1>Premium Branding Font Styles</h1>
+<p>Typography exploration for <strong>Om Gangajaliya</strong></p>
+
+<div class="grid">
+
+  <div class="card">
+    <div class="name inter">Om Gangajaliya</div>
+    <div class="accent"></div>
+    <div class="label">Inter · Modern SaaS / Clean UI</div>
+  </div>
+
+  <div class="card">
+    <div class="name manrope">Om Gangajaliya</div>
+    <div class="accent"></div>
+    <div class="label">Manrope · Premium Agency Favourite ⭐</div>
+  </div>
+
+  <div class="card">
+    <div class="name jakarta">Om Gangajaliya</div>
+    <div class="accent"></div>
+    <div class="label">Plus Jakarta Sans · Balanced Luxury</div>
+  </div>
+
+  <div class="card">
+    <div class="name dm">Om Gangajaliya</div>
+    <div class="accent"></div>
+    <div class="label">DM Sans · Friendly Premium</div>
+  </div>
+
+  <div class="card">
+    <div class="name space">Om Gangajaliya</div>
+    <div class="accent"></div>
+    <div class="label">Space Grotesk · Tech / Futuristic</div>
+  </div>
+
+  <div class="card">
+    <div class="name outfit">Om Gangajaliya</div>
+    <div class="accent"></div>
+    <div class="label">Outfit · Modern Branding</div>
+  </div>
+
+  <div class="card">
+    <div class="name syne">Om Gangajaliya</div>
+    <div class="accent"></div>
+    <div class="label">Syne · Creative Studio</div>
+  </div>
+
+  <div class="card">
+    <div class="name syne-mono mono">Om Gangajaliya</div>
+    <div class="accent"></div>
+    <div class="label">Syne Mono · Creative Dev / Experimental ⚡</div>
+  </div>
+
+  <div class="card">
+    <div class="name playfair">Om Gangajaliya</div>
+    <div class="accent"></div>
+    <div class="label">Playfair Display · Luxury / Editorial</div>
+  </div>
+
+</div>
+
+</body>
+</html>
