@@ -139,10 +139,6 @@ header {
     transition: all .3s ease-in-out;
 }
 
-.hero-cta a:hover {
-    transform: translateY(-2px);
-}
-
 .hero-cta .primary:hover {
     box-shadow: 0 15px 35px rgba(124, 247, 196, 0.35);
 }
