@@ -433,7 +433,6 @@ header {
     justify-content: center;
     min-height: 100px;
     transition: all .3s ease-out;
-    cursor: pointer;
 }
 
 .logo-text:hover {
